@@ -1,0 +1,28 @@
+@import '../../styles/variables.css';
+
+.navigation ul{
+    display: grid;
+    grid-auto-flow: row;
+    gap: 43px;
+    position: fixed;
+    margin-top: 150px;
+    list-style: none;
+    
+
+}
+
+.item{
+   width: 40px;
+   height: 40px;
+   background-color: var(--color-gray); 
+   border-radius: 19px;
+   }
+
+   .item:hover{
+    background-color: rgb(243, 190, 93);
+   }
+
+   .item img {
+   margin-left: 11px;
+   margin-top: 10px;
+   }

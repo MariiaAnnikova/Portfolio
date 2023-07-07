@@ -1,0 +1,8 @@
+@import '../../styles/variables.css';
+
+.education{
+    margin-top: 100px;
+    background-color: var(--white);
+    width: 970px;
+    height: 515px;
+}
