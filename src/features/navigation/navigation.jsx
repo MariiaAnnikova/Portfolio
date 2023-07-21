@@ -9,40 +9,41 @@ import portfolio from './images/portfolio.svg'
 export const  Navigation = () =>  {
   return (
     <nav className='navigation'>
-        <ul>
-            <li className='item'>
-                <Link activeClass="active"
-                 to="header" 
+       
+                <Link 
+                className='item itemHome'
+                activeClass="active"
+                 to="home" 
                  smooth={true} 
                  duration={500}>
             <img src={home} alt='icon' />
-        </Link></li>
+        </Link>
 
 
 
 
-            <li className='item'><Link activeClass="active"
+          <Link  className="item"
                  to="education" 
                 
                  smooth={true} 
                  
                  duration={500} 
                  >
-            <img src={cv} alt='icon' /></Link></li>
+            <img src={cv} alt='icon' /></Link>
 
 
-            <li className='item'><Link activeClass="active"
-                 to="work" 
+           <Link className="item"
+                 to="portfolio" 
                 
                  smooth={true} 
                  
                  duration={500} 
                  >
-            <img src={portfolio} alt='icon' /> </Link></li>
+            <img src={portfolio} alt='icon' /> </Link>
 
 
-            <li className='item'>
-            <Link activeClass="active"
+       
+            <Link className="item"
                  to="contacts" 
                 
                  smooth={true} 
@@ -50,8 +51,8 @@ export const  Navigation = () =>  {
                  duration={500} 
                  >
           <img src={contact} alt='icon' />
-          </Link></li>
-            </ul>
+          </Link>
+            
     </nav>
   )
 }

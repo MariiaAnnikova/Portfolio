@@ -1,0 +1,15 @@
+@import "../../styles/variables.css";
+
+.work_history{
+    background: var(--white);
+    width: 100%;
+    min-height: 600px;
+    margin-top: 40px;
+   
+}
+
+.title_block{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}

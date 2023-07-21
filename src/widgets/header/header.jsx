@@ -7,7 +7,7 @@ import photo_me from './picture/photo_me.png'
 
 export const  Header = () => {
   return (
-    <Element name='header' className='header'>
+    <Element name='home' className='header'>
       <div className='all_header'>
       <div className='left_header'>
 <h1>I'm Annikova Mariia </h1>
