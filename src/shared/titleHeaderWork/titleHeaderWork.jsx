@@ -4,6 +4,6 @@ import './titleHeaderWork.css'
 
 export const TitleHeaderWork = ({header}) =>  {
   return (
-<h2 headerSecondary>{header}</h2>
+<h2 className='headerSecondary' >{header}</h2>
   )
 }
