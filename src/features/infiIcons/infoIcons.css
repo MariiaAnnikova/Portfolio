@@ -1,0 +1,21 @@
+.info_icons{
+    display: flex;
+    flex-direction: row;
+   gap: 20px;
+    object-fit: contain;
+    margin-left: 40px;
+    /* border-bottom: 1px solid rgb(199, 196, 196); */
+
+}
+ .info_icons a{
+     color: black;
+     height: 30px;
+     width: 30px;
+   cursor: pointer;
+ }
+
+ .line{
+    width: 250px;
+    border-bottom: 1px solid rgb(192, 186, 186);
+    margin-left: 30px;
+ }

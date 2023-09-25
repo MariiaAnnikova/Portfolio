@@ -9,7 +9,7 @@ import { Contacts } from '../../widgets/contacts/contacts';
 import { Footer } from '../../widgets/footer/footer';
 import { WorkHistory } from '../../widgets/workHistory/workHistory';
 
-export const HomePage = ({education, work}) => {
+export const HomePage = () => {
   return (
     <div className='container'>
       <Information />

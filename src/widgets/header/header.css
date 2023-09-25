@@ -36,3 +36,10 @@ border: none;
 .btn_hire_me:hover{
     background-color: var(--color-gray);
 }
+
+.right_header img {
+height: 500px;
+width: 400px;
+object-fit: contain;
+
+}

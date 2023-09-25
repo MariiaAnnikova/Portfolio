@@ -3,6 +3,6 @@ import './footer.css'
 
 export const Footer = ()  => {
   return (
-    <div className='footer'>footer</div>
+    <center className='footer'>@ 2023 Annikova Marria .All right reserved.</center>
   )
 }

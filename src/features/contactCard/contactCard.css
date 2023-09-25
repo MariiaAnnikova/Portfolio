@@ -1,0 +1,26 @@
+.all_contact{
+    width: 500px;
+    height: 600px;
+  margin-top: 50px;
+}
+
+
+
+.one_contact_card{
+  height: 150px;
+    display: flex;
+   flex-direction: row;
+   gap: 80px;
+   margin-left: 80px;
+}
+
+.icon_contact{
+  
+    height: 60px;
+    margin-left: 200px;
+    font-size: 25px;
+}
+.one_contact_card a {
+     color:black;
+     text-decoration: none;
+}

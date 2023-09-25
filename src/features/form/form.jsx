@@ -1,53 +1,47 @@
 import React, { useState } from 'react'
 import './form.css'
-
+import {useForm} from 'react-hook-form'
 
 export const Form = ()  => {
 
-const [formState, setFormState ] =  useState ({
-    name: { value: ' '},
-    email: { value: ' '},
-    subject: { value: ' '}
-})
+    const { 
+      register,
+       handleSubmit,
+       formState: {errors}
+       } = useForm();
+    const onSubmit = data => console.log(data);
+     
+    return (
+      <div className='right_side_contact_banner'>
+        <h3>You can write me </h3>
+      <form  className="all_form" onSubmit={handleSubmit(onSubmit)}>
+      <div className='name_form'>
+        <label className='name_of_input'>Your Full Name ( Required)</label>
+        <br/>
+        <input 
+          {...register("name", { required: true, pattern: /^[a-zA-Z]{2,}$/ })}
+          className={errors.name ? "errorInput" : ""}
+        />
+      </div>
+      <div className='mail_form'>
+        <label className='name_of_input'>Your Email ( Required)</label>
+        <br/>
 
-const handleChange = (event) => {
-    const { name,value } = event.target;
-setFormState({...formState, [name]: {value: value } })
-};
-
-const handleSubmit = (event) => {
- event.preventDefault();
-
- for (const [key, value] of Object.entries(formState)){
-     console.log(key, value.value)
- }
-
-}
-
-
-
-
-  return (
-    <form onSubmit={handleSubmit}>
-        <label>Your full name ( Required ) </label>
-        <input type='text'
-         name="name"  
-         value={formState.name.value }
-         onChange={handleChange} />
-
-        <label> Your mail </label>
-        <input type='text'
-         name="email" 
-         value={ formState.email.value }
-         onChange={handleChange}  />
-        
-        <label>Subject</label>
-        <input type='text' 
-        name="subject" 
-        value={ formState.subject.value } 
-        onChange={handleChange} />
-
-        <button type='submit'> Send message </button>
+        <input
+          {...register("email", {
+            required: true,
+            pattern: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
+          })}
+          className={errors.email ? "errorInput" : ""}
+        />
+      </div>
+      <div className='subject_form'>
+        <label className='name_of_input'>Subject</label>
+        <br/>
+        <input {...register("subject")} />
+      </div>
+    <button     className="button_submit"  type="submit">send message</button>
     </form>
-  )
-}
+    </div>
+  );
+};

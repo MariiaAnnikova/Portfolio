@@ -1,0 +1,22 @@
+.info_block{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+.info_left p{
+    background-color: var(--orange);
+    border-radius: 5px;
+ text-align: center;
+height: 20px;
+}
+
+.info_left{
+
+
+  width: 100px;
+  justify-content: center;
+  justify-items: center;
+}

@@ -1,13 +1,16 @@
 
 
   .portfolio_card{
-    border:1px solid green;
-    width: 300px;
-    height: 310px;
-    display: flex;
-  
 
-  img {
-width: 300px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 34px;
   }
-}
+
+  .portfolio_card img {
+width: 250px;
+height: 250px;
+  }

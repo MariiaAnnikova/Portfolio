@@ -5,5 +5,5 @@ import './workCard.css'
 export const WorkCard = ({data}) =>  {
 
 
-   return <p> { data.siteName } </p>;
+   return <div> { data.siteName } </div>;
 };

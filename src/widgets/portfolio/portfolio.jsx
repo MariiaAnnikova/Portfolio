@@ -29,7 +29,8 @@ const handleTabClick = (category) => {
 };
   return (
     <Element name="portfolio" className="portfolio">
-    <PortfolioTabs onClick={handleTabClick} />
+      <div className='portfolio_title'><h1>Portfolio</h1></div>
+    <PortfolioTabs  onClick={handleTabClick} />
     <div className="portfolioWrapper">{renderCards(portfolioData)}</div>
   </Element>
   );

@@ -1,7 +1,9 @@
 import React from 'react'
+import './graduateTitle.css'
+
 
 export const GraduateTitle = ( { data }) =>  {
   return (
-    <div>{ data.grade } </div>
+    <div className='grade'>{ data.grade } </div>
   )
 }

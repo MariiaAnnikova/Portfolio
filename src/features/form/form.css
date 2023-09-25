@@ -1,0 +1,62 @@
+@import "../../styles/variables.css";
+
+.right_side_contact_banner{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 30px;
+    height: 600px;
+    width: 500px;
+    /* border: 1px solid green; */
+}
+.right_side_contact_banner h3{
+    margin-left: 150px;
+    font-size: 25px;
+}
+.all_form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.name_of_input{
+    color: #767676;
+}
+
+.name_form input{
+  background-color:var( --color-gray);
+  border: none;
+  width: 450px;
+  height: 23px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.mail_form input{
+    background-color:var( --color-gray);
+    border: none;
+    width: 450px;
+    height: 23px;
+    margin-top: 10px; 
+    cursor: pointer;
+}
+
+.subject_form input{
+    background-color:var( --color-gray);
+    border: none;
+    width: 450px;
+    height: 200px;
+    margin-top: 10px; 
+    cursor: pointer; 
+}
+
+.button_submit{
+    background-color:var( --orange);
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 18px; 
+    font-size: 20px;
+    color: var( --dark-gray);
+    margin-left: 150px;
+    cursor: pointer;
+}

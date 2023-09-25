@@ -1,7 +1,7 @@
 import React from 'react'
 import './navigation.css'
 import { Link } from 'react-scroll'
-import contact  from '../navigation/images/contact.svg'
+import contact  from './images/contact.svg'
 import cv from './images/cv.svg'
 import home from './images/home.svg'
 import portfolio from './images/portfolio.svg'

@@ -2,7 +2,9 @@
 
 .footer{
     background-color: var(--white);
-    height: 60px;
+    height: 25px;
     width: 970px;
-    margin-top: 10px;
+    margin-top: 40px;
+    justify-items: center;
+    margin-bottom: 20px;
 }

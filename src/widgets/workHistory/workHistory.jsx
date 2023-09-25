@@ -47,11 +47,9 @@ const graduateData = data.history.map((work, index) => (
       <div className='title_block'>
       <div className="mainInfo">{mainInfo}</div>
       <div className='certificateInfo'>{certificateInfo}</div>
-      </div>
-      <div>
         <div className="graduate_title">{graduareTitle}</div>
         <div className="graduate_data">{graduateData}</div>
-        <div className="about_title">{aboutTitle }</div>
+        {/* <div className="about_title">{aboutTitle }</div> */}
       </div>
       </Element>
   )

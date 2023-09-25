@@ -3,13 +3,44 @@
 .work_history{
     background: var(--white);
     width: 100%;
-    min-height: 600px;
+    height: 400px;
     margin-top: 40px;
-   
+    text-align: center;
+    margin-bottom: 50px;
 }
+   
+
 
 .title_block{
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
-    gap: 200px;
+  justify-content: space-around;
+
+   
+}
+.mainInfo{
+display: flex;
+flex-direction: column;
+gap: 50px;
+
+}
+
+.certificateInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.graduate_title{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+     
+}
+
+.graduate_data{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
