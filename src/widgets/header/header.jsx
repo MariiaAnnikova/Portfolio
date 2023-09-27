@@ -13,10 +13,11 @@ export const  Header = () => {
 <h1>I'm Annikova Mariia </h1>
 <h1>Front-end Developer </h1>
 
-<h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
-<h5> Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+<h4>Passionate and self organize web developer.  </h4>
+<h4>Making user-friendly and responsive websites with HTML, CSS, JavaScript, and React. Engoying to lern new technologies. </h4>
 
-<button className='btn_hire_me'> Hire me </button>
+
+<button className='btn_hire_me'> <a href='https://wa.me/393484558431'>Contact me </a> </button>
       </div>
 
       <div className='right_header'>

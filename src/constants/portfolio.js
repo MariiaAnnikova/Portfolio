@@ -1,7 +1,7 @@
 import ImgOne from './images/Logo.png'
 import ImgTwo from './images/Sushi.jpeg'
-import ImgTree from './images/Image.png'
-import ImgFour from './images/Image4.png'
+import ImgTree from './images/Image4.png'
+import ImgFour from './images/Image7.png'
 import ImgFive from './images/Image5.png'
 import ImgSix from './images/Image6.png'
 import ImgSeven from './images/Image7.png'
@@ -22,7 +22,7 @@ export const CATEGORIES = ['all', 'React', 'Html_and_Css', 'Redux'];
 },
 {
     img: ImgTree,
-    link: '/',
+    link: 'https://goldfish-app-nu4hk.ondigitalocean.app/',
     category: CATEGORIES[1]
 },
 {

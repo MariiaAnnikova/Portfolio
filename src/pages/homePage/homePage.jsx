@@ -15,9 +15,10 @@ export const HomePage = () => {
       <Information />
       <div className="inner">
         <Header />
+        <Portfolio />
   <WorkHistory name='education' data={EDUCATION}/>
   <WorkHistory name='work' data={WORK}/>
-       <Portfolio />
+      
        <Contacts />
        <Footer />
       </div>

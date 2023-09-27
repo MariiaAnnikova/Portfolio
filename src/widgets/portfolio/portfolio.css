@@ -16,6 +16,12 @@
 
 }
 
+.portfolioWrapper img {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+
 .portfolio_title{
     margin-left: 400px;
 }
