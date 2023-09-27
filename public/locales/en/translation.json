@@ -1,0 +1,54 @@
+{
+    "header_info_top": "Passionate and self organized web developer.",
+  "header_info_down": "Making user-friendly and responsive websites with HTML, CSS, JavaScript, and React. Enjoying to learn new technologies.",
+  "button":"contact me",
+  "age_title": "age",
+  "residence_title": "residence",
+  "freelance_title": "Freelance",
+  "adress_title":"adress",
+  "age": "33",
+  "residence": "Italy,EU / Russia",
+ 
+  "freelance": "available",
+  "adress":"Cabella ligure (AL)",
+  "button_skills" : "My skills",
+  "header_ed": "Education and Work experience",
+
+  "title_ed": "Certainly Education And Status Is Important. But The Ability To Self-Learn Is Priceless",
+  "mainInfo": "University SIEFLT, SPb",
+  "grade": "Diplom",
+  "work": "Lawyer",
+  "data": "Sep 2007 - Jun 2012",
+  "data_two": "Jun 2022 - March 2023",
+  "data_tree": "Sep 2011 - Dec 2012",
+  "data_four": "Dec 2012 - Jun 2012",
+  "data_five": "Jun 2012 - Jun 2014",
+  "mainInfoTwo": " International tech school Tel-Ran. Germany",
+  "grade_two": "Certificate",
+  "grade_tree": " Intern",
+  "grade_four": "Work experience",
+    "grade_five": "Lowyer",
+  "work_two": "Front End Web Developer",
+  "work_tree": "Assistant referee's secretary",
+  "work_four": "Judge's secretary",
+  "work_five": "Notary secretary",
+  "mainInfo_tree": " Tribunal №171-173 SPb, Russia",
+  "nainInfo_four": " Tribunal №11, Sosnovy Bor, SPb, Russia",
+  "mainInfo_five": "Notary company of Zdvigkova. G. S.",
+  "input_name": "Your Full Name (Required)",
+  "input_mail": "Your Email (Required)",
+  "input_subject": "Subject",
+  "write_me": " Write me!",
+  "write_me_btn": " Write me!",
+  "country": "Country:",
+  "City": "City:",
+  "Street": "Street:"
+
+
+  
+
+
+
+
+
+}

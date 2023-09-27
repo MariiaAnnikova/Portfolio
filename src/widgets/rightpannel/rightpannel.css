@@ -1,7 +1,7 @@
 @import '../../styles/variables.css';
 
 .right_pannel{
- background-color: var(  --color-light-gray);
+ background-color:white ;
  width: 108px;
 
  /* margin-left: 10px; */
@@ -10,15 +10,22 @@
 .language{
     height: 40px;
     width: 100px;
-    background-color: var(--color-gray);
+    /* background-color: var(--color-gray); */
     margin-top: 50px;
     margin-left: 3px;
     border-radius: 20px;
     display: flex;
     justify-content: center;
     padding-bottom: 10px;
+    cursor: pointer;
+  
 
 }
-.language:hover{
-    background-color: rgb(243, 190, 93);
+
+.language button{
+    margin-left: 10px;
+    border: 1px solid #a85bf9;
+    border-radius: 10px;
+    width: 35px;
+    background-color: #D7BBF5;
 }

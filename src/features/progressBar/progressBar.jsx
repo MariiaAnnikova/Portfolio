@@ -1,49 +1,21 @@
-// import React from 'react'
-// import './progressBar.css'
 
-
-
-// export const ProgressBar = () =>  {
-//   return (
-  
-//   <div className="container-bar">
-//   <h1>SKILL</h1>
-//     <div className='skill-container'>
-       
-//         <div className="skill_title">
-// <p className="title">HTML</p>
-// <p className="title">CSS</p>
-// <p className="title">JavaScript</p>
-// <p className="title">React</p>
-// <p className="title">Git</p>
-// <p className="title">MySQL</p>
-// <p className="title">MongoDB</p>
-// </div>
-// <div className="skill_procent">
-// <p className="procent">90%</p>
-// <p className="procent">90%</p>
-// <p className="procent">70%</p>
-// <p className="procent">70%</p>
-// <p className="procent">75%</p>
-// <p className="procent">70%</p>
-// <p className="procent">70%</p>
-// </div>
-
-
-//     </div>
-
-//     </div>
-//   )
-// }
-
+import { useTranslation } from 'react-i18next';
 
 import React from "react";
 import './progressBar.css'
 
 export const ProgressBar = () =>  {
+
+    const { t, i18n } = useTranslation();
+
+
+  const changeLanguage = (language) => {
+    i18n.changeLanguage(language);
+  };
+
     return (
        <div className="container-bar">
-           <h1 className="title-text">My skills</h1>
+           <p className="title-text">{t("button_skills")}</p>
 
            <div className="skill-box">
                <span className="title">HTML</span>

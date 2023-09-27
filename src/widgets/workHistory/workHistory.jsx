@@ -11,29 +11,7 @@ import { AboutTitle } from '../../features/aboutTitle/aboutTitle'
 
 
 export const WorkHistory = ({ name, data }) => {
-
-
-  const mainInfo = data.history.map((work, index) => (
-    <WorkCard data={work} key={`work_${index}`} />
-  ));
-
-const certificateInfo = data.history.map((work,index) => (
-  <Certificate data={work} key={`work_${index}`} />
-));
-
-const graduareTitle = data.history.map((work, index) => (
-  <GraduateTitle data={work} key={`work_${index}`} />
-));
-
-const graduateData = data.history.map((work, index) => (
-  <DateOfJob data={work} key={`work_${index}`} />
-  ));
-
-  const aboutTitle = data.history.map((work, index) => (
-    <AboutTitle data={work} key={`work_${index}`} />
-    ));
-
-
+ 
 
 
 
@@ -41,16 +19,17 @@ const graduateData = data.history.map((work, index) => (
     <Element name={name} className='work_history'>
 
 <div className="headerInfo">
-        <TitleHeaderWork  header={data.header} />
-        <Pharagraph aling="center" text={data.title} />
+        <TitleHeaderWork   />
+        <Pharagraph />
       </div>
       <div className='title_block'>
-      <div className="mainInfo">{mainInfo}</div>
-      <div className='certificateInfo'>{certificateInfo}</div>
-        <div className="graduate_title">{graduareTitle}</div>
-        <div className="graduate_data">{graduateData}</div>
-        {/* <div className="about_title">{aboutTitle }</div> */}
-      </div>
+      <div className="mainInfo"><WorkCard /></div>
+      {/* <div className='certificateInfo'><GraduateTitle /></div> */}
+        <div className="graduate_title"><Certificate /></div>
+        <div className="graduate_data"><DateOfJob /></div> 
+       
+       </div>
+      
       </Element>
   )
 }

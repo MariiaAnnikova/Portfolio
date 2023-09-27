@@ -1,10 +1,15 @@
 import React from 'react'
 import './pharagraph.css'
+import { useTranslation } from 'react-i18next';
+
+export const Pharagraph = ({text }) =>  {
+
+   const { t, i18n } = useTranslation();
 
 
-export const Pharagraph = ({text, aling }) =>  {
+   const changeLanguage = (language) => {
+     i18n.changeLanguage(language);
+   };
 
-   const alignText = aling === 'center' ? 'paragraphCenter' : ''; 
-
-   return <p className={`paragraph ${alignText}`}> {text}</p>;
+   return <p > {t("title_ed")}</p>;
 };

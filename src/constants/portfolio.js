@@ -23,26 +23,25 @@ export const CATEGORIES = ['all', 'React', 'Html_and_Css', 'Redux'];
 {
     img: ImgTree,
     link: 'https://goldfish-app-nu4hk.ondigitalocean.app/',
-    category: CATEGORIES[1]
-},
-{
-    img: ImgFour,
-    link: '/',
     category: CATEGORIES[3]
-},
-{
-    img: ImgFive,
-    link: '/',
-    category: CATEGORIES[1]
-},
-{
-    img: ImgSix,
-    link: '/',
-    category: CATEGORIES[2]
-},
+}]
+// {
+//     img: ImgFour,
+//     link: '/',
+//     category: CATEGORIES[3]
+// },
+// {
+//     img: ImgFive,
+//     link: '/',
+//     category: CATEGORIES[1]
+// },
+// {
+//     img: ImgSix,
+//     link: '/',
+//     category: CATEGORIES[2]
+// },
 // {
 //     img: ImgSeven,
 //     link: '/',
 //     category: CATEGORIES[3]
 // },
-]

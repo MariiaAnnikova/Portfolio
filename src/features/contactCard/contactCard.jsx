@@ -2,8 +2,17 @@ import React from "react"
 import {GlobalOutlined} from "@ant-design/icons"
 import { MailOutlined } from "@ant-design/icons"
 import './contactCard.css'
-
+import { useTranslation } from 'react-i18next';
 export const ContactCard = () => {
+
+    const { t, i18n } = useTranslation();
+
+
+    const changeLanguage = (language) => {
+      i18n.changeLanguage(language);
+    };
+
+
     return (
   
   
@@ -15,9 +24,9 @@ export const ContactCard = () => {
        </div>
        <div className="one_contact_card">
         <div>
-            <p>Country:</p>
-            <p>City:</p>
-            <p>Street:</p>
+            <p>{t("country")}</p>
+            <p>{t("City")}</p>
+            <p>{t("Street")}</p>
         </div>
         <div>
             <p>Italy, EU</p>
@@ -26,22 +35,7 @@ export const ContactCard = () => {
         </div>
        </div>
 
-       {/* <div className="icon_contact">
-       <p><GlobalOutlined /></p>
 
-       </div>
-       <div className="one_contact_card">
-        <div>
-            <p>Country:</p>
-            <p>City:</p>
-            <p>Street:</p>
-        </div>
-        <div >
-            <p>Russia</p>
-            <p>Sosnovy Bor, SPb</p>
-            <p>Molodegnaya street </p>
-        </div>
-       </div> */}
 
        <div className="icon_contact">
         <p><MailOutlined /></p>

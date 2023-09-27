@@ -1,4 +1,6 @@
 .certificate_title{
- 
+ display: flex;
+ flex-direction: column;
+ gap: 50px;
    
 }

@@ -9,7 +9,7 @@ history: [
     siteName: "University SIEFLT, SPb",
     grade: 'Diploma',
     data: "Sep 2007 - Jun 2012",
-    work: "Diploma in Law",
+    work: "Lawyer",
     workHistory:
       "-",
      }
@@ -48,7 +48,7 @@ export const WORK = {
       },
       {
         siteName: "Notary company of Zdvigkova. G. S. ",
-        grade: "Lowyer",
+        grade: "Avvocatessa",
         data: "Jun 2012 - Jun 2014",
         work: "Notary secretary",
        

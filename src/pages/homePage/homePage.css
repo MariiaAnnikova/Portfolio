@@ -1,7 +1,7 @@
 @import '../../styles/variables.css';
 
 .container {
-    background-color: var(--color-gray);
+    background-color: #EDE4FF;
     width: 1440px;
     min-height: 100vh;
     margin: 0 auto;

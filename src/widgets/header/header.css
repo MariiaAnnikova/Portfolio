@@ -28,13 +28,18 @@
     height: 40px;
     width: 200px;
     border-radius: 18px;
-    background-color: var(--orange);
+    background-color:#a280fa;
 border: none;
+font-size: 20px;
 
+}
+.btn_hire_me a{
+    text-decoration: none;
+color: black;
 }
 
 .btn_hire_me:hover{
-    background-color: var(--color-gray);
+    background-color: #DBC7C9;
 }
 
 .right_header img {

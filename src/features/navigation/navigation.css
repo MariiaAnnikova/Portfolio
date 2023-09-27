@@ -5,13 +5,14 @@
     grid-auto-flow: row;
     grid-gap: 43px;
     position: fixed;
-    margin-top: 200px;
+    margin-top: 100px;
+    margin-left: 30px;
   }
   .item {
     width: 40px;
     height: 40px;
     display: block;
-    background-color: var(--color-gray);
+    background-color: #D7BBF5;
 border-radius: 19px;
     background-position: center;
   }
@@ -19,7 +20,8 @@ border-radius: 19px;
  .navigation img {
     margin-left: 10px;
     margin-top: 10px;
+    color: black;
  }
   .item:hover {
-    background-color: var(--orange);
+    background-color: #6528F7;
   }

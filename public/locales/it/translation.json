@@ -1,0 +1,55 @@
+{
+    "header_info_top": "Sviluppatore web appassionato e auto-organizzato.",
+    "header_info_down": "Realizzare siti web user-friendly e reattivi con HTML, CSS, JavaScript e React. Divertirsi ad apprendere nuove tecnologie.",
+    "button": "contattami",
+    "age_title": "eta",
+    "residence_title": "residence",
+    "freelance_title": "freelance",
+    "adress_title":"indirizzo",
+    "age": "33",
+    "residence": "Italia,EU / Russia",
+   
+    "freelance": "disponibile",
+    "adress":"Cabella ligure (AL)",
+    "button_skills" : "le mie competenze",
+    "header_ed": "Esperienza formativa ed lavorativa",
+    "title_ed": " Certamente l’istruzione e lo status sono importanti. Ma la capacità di autoapprendimento non ha prezzo",
+    "mainInfo": "Università SIEFLT, SPb",
+    "grade": "Diploma",
+    "grade_two": "Certificato",
+    "grade_tree": "Stagista",
+    "grade_four": "Esperienza di lavoro",
+    "grade_five": "Avvocatessa",
+    "work": "Avvocatessa",
+    "data": "Set 2007 - Giu 2012",
+   
+    "data_two": "Jun 2022 - March 2023",
+    "data_tree": "Sep 2011 - Dec 2012",
+    "data_four": "Dec 2012 - Jun 2012",
+    "data_five": "Jun 2012 - Jun 2014",
+    "mainInfoTwo": " Scuola tecnologica internazionale Tel-Ran. Germania",
+    "mainInfo_tree": " Tribunale №171-173 SPb, Russia",
+    "mainInfo_four": " Tribunale №11, Sosnovy Bor, SPb, Russia",
+    "mainInfo_five": "Società notarile di Zdvigkova. G.S.",
+   
+    "work_two": "Front End Web developer",
+    "work_tree": "Segretario dell'assistente arbitro",
+    "work_four": "Il segretario del giudice",
+    "work_five": "Segretario notaio",
+    "input_name": "Il tuo nome completo (Necessario)",
+  "input_mail": "La tua email (Necessario)",
+  "input_subject": "Soggetto",
+  "write_me": " Scrivimi!",
+  "write_me_btn": " Scrivimi!",
+  "country": "Paese:",
+  "City": "Citta:",
+  "Street": "Strada:"
+   
+  
+   
+   
+
+
+
+
+}

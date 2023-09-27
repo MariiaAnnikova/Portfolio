@@ -9,7 +9,9 @@ import { Contacts } from '../../widgets/contacts/contacts';
 import { Footer } from '../../widgets/footer/footer';
 import { WorkHistory } from '../../widgets/workHistory/workHistory';
 
+
 export const HomePage = () => {
+ 
   return (
     <div className='container'>
       <Information />
@@ -17,7 +19,7 @@ export const HomePage = () => {
         <Header />
         <Portfolio />
   <WorkHistory name='education' data={EDUCATION}/>
-  <WorkHistory name='work' data={WORK}/>
+  {/* <WorkHistory name='work' data={WORK}/> */}
       
        <Contacts />
        <Footer />
